@@ -33,6 +33,8 @@ These approaches are relevant for **particle physics** and **dark matter searche
 - Variational quantum circuits for HEP feature extraction
 
 ## Repository Structure
+```
+      
 .
 ├── classical-gnn/                     # Classical graph neural network for quark/gluon jet classification
 │   ├── gnn_quark_gluon_classification.ipynb
@@ -49,3 +51,4 @@ These approaches are relevant for **particle physics** and **dark matter searche
 │
 ├── requirements.txt                    # Python dependencies
 └── README.md                           # Project documentation
+```
