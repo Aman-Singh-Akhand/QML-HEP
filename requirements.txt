@@ -1,0 +1,10 @@
+matplotlib
+numpy
+pennylane
+qiskit
+qiskit-aer
+scikit-learn
+seaborn
+tensorflow
+torch
+torchvision
