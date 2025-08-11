@@ -36,8 +36,7 @@ These approaches are relevant for **particle physics** and **dark matter searche
 ```
 .
 ├── classical-gnn/                     # Classical graph neural network for quark/gluon jet classification
-│   ├── gnn_quark_gluon_classification.ipynb
-│   └── utils_data_processing.ipynb
+│   └── gnn_quark_gluon_classification.ipynb
 │
 ├── eqv-qnn/                            # Equivariant quantum neural network notebooks
 │   └── equivariant_qnn_z2x2.ipynb
@@ -48,6 +47,10 @@ These approaches are relevant for **particle physics** and **dark matter searche
 ├── quantum-repr/                       # Quantum representation learning notebooks
 │   └── quantum_representation_learning_hep.ipynb
 │
+├── misc/                               # Additional reference notebooks
+│   └── quantum_computing_intro.ipynb
+│
 ├── requirements.txt                    # Python dependencies
 └── README.md                           # Project documentation
+
 ```
