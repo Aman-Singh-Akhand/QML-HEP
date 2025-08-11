@@ -6,7 +6,7 @@ It includes work on **graph neural networks (GNNs)**, **equivariant quantum neur
 
 ## Motivation
 Modern HEP experiments generate massive, complex datasets.  
-Machine learning — both classical and quantum — can help:
+Machine learning via both classical and quantum can help:
 - Identify particle signatures (e.g., quark vs. gluon jets)
 - Leverage symmetries in detector data via equivariant architectures
 - Explore compact function approximations with KANs
