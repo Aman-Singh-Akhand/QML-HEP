@@ -1,5 +1,4 @@
-```markdown
-# QML-HEP: Quantum and Classical ML Methods for High-Energy Physics
+# QML-HEP: Quantum and Classical Machine Learning Methods for High-Energy Physics
 
 ## Overview
 This repository contains implementations of **quantum** and **classical** machine learning methods applied to **high-energy physics (HEP)** problems.  
@@ -12,24 +11,25 @@ Machine learning — both classical and quantum — can help:
 - Leverage symmetries in detector data via equivariant architectures
 - Explore compact function approximations with KANs
 
-These approaches are relevant for **particle physics** and **dark matter searches** where signal extraction from noisy backgrounds is critical.
+These approaches are relevant for **particle physics** and **dark matter searches**, where signal extraction from noisy backgrounds is critical.
 
 ## Implementations
-- **Classical GNN for Quark/Gluon Jet Classification**
-  - Dataset: ParticleNet data (Pythia/Herwig)
-  - Input: `(pt, rapidity, azimuthal angle, pid)` features per particle
-  - Evaluation: ROC-AUC, accuracy
 
-- **Equivariant Quantum Neural Networks (QNNs)**
-  - Z₂ × Z₂ equivariant models
-  - Implemented in Qiskit and PennyLane
-  - Explores symmetry-preserving parameterizations
+### Classical GNN for Quark/Gluon Jet Classification
+- Dataset: ParticleNet data (Pythia/Herwig)
+- Input: `(pt, rapidity, azimuthal angle, pid)` features per particle
+- Evaluation: ROC-AUC, accuracy
 
-- **Kolmogorov–Arnold Network (KAN)**
-  - Quantum-inspired and classical implementations
-  - Function approximation in HEP contexts
+### Equivariant Quantum Neural Networks (QNNs)
+- Z₂ × Z₂ equivariant models
+- Implemented in Qiskit and PennyLane
+- Explores symmetry-preserving parameterizations
 
-- **Quantum Representation Learning**
-  - Variational quantum circuits for HEP feature extraction
+### Kolmogorov–Arnold Network (KAN)
+- Quantum-inspired and classical implementations
+- Function approximation in HEP contexts
+
+### Quantum Representation Learning
+- Variational quantum circuits for HEP feature extraction
 
 ## Repository Structure
