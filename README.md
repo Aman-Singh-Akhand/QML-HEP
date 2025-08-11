@@ -35,22 +35,22 @@ These approaches are relevant for **particle physics** and **dark matter searche
 ## Repository Structure
 ```
 .
-├── classical-gnn/                     # Classical graph neural network for quark/gluon jet classification
-│   └── gnn_quark_gluon_classification.ipynb
+├── classical-ml/                       # Classical machine learning models
+│   └── classical-gnn/
+│       └── gnn_quark_gluon_classification.ipynb
 │
-├── eqv-qnn/                            # Equivariant quantum neural network notebooks
-│   └── equivariant_qnn_z2x2.ipynb
+├── quantum-computing/                  # All quantum-related work
+│   ├── eqv-qnn/                         # Equivariant quantum neural networks
+│   │   └── equivariant_qnn_z2x2.ipynb
+│   ├── kan/                             # Kolmogorov–Arnold network
+│   │   └── kolmogorov_arnold_network_hep.ipynb
+│   ├── quantum-repr/                    # Quantum representation learning
+│   │   └── quantum_representation_learning_hep.ipynb
+│   └── misc/
+│       └── quantum_computing_intro.ipynb
 │
-├── kan/                                # Kolmogorov–Arnold network implementations
-│   └── kolmogorov_arnold_network_hep.ipynb
-│
-├── quantum-repr/                       # Quantum representation learning notebooks
-│   └── quantum_representation_learning_hep.ipynb
-│
-├── misc/                               # Additional reference notebooks
-│   └── quantum_computing_intro.ipynb
-│
-├── requirements.txt                    # Python dependencies
-└── README.md                           # Project documentation
+├── requirements.txt
+└── README.md
+
 
 ```
