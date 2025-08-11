@@ -33,3 +33,19 @@ These approaches are relevant for **particle physics** and **dark matter searche
 - Variational quantum circuits for HEP feature extraction
 
 ## Repository Structure
+.
+├── classical-gnn/               # Classical graph neural network for quark/gluon jet classification
+│   ├── gnn_quark_gluon_classification.ipynb
+│   └── utils_data_processing.ipynb
+│
+├── eqv-qnn/                      # Equivariant quantum neural network notebooks
+│   └── equivariant_qnn_z2x2.ipynb
+│
+├── kan/                          # Kolmogorov–Arnold network implementations
+│   └── kolmogorov_arnold_network_hep.ipynb
+│
+├── quantum-repr/                 # Quantum representation learning notebooks
+│   └── quantum_representation_learning_hep.ipynb
+│
+├── requirements.txt              # Python dependencies
+└── README.md                     # Project documentation
