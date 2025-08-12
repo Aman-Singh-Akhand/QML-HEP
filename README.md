@@ -33,17 +33,6 @@ These approaches are relevant for **particle physics** and **dark matter searche
 - Variational quantum circuits for HEP feature extraction
 
 
-## Dataset
-
-###
-The dataset used for training and evaluation is a simulated quark/gluon jet dataset.
-It contains:
-
-X: shape (N, 139, 4) — 4 particle-level features (pT, rapidity, azimuthal angle, PID) for 139 particles per jet.
-
-y: shape (N,) — binary labels (0 = gluon jet, 1 = quark jet).
-
-A_all (if applicable) — adjacency matrices representing jet graphs.
 
 ## Repository Structure
 ```
